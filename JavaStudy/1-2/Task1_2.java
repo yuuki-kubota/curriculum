@@ -9,7 +9,7 @@ public class Task1_2 {
        arr[2]="KOREA";
 
        // ② ①で作成した配列の要素数を出力してください。
-       System.out.println("配列の要素数"+arr.length);
+       System.out.println(arr.length);
 
        /* ③下記の値を保持した、要素数3のStringクラスの配列strArrayを作成しなさい。
         *   1番目（先頭）の要素に 「りんご」 を代入
@@ -21,7 +21,7 @@ public class Task1_2 {
        strArray[1]="もも";
        strArray[2]="ぶどう";
        // ④ ③で作成した配列の2番目の要素を出力しなさい。
-       System.out.println("配列の2番目の要素"+ strArray[1]);
+       System.out.println( strArray[1]);
 
        /* ⑤下記の処理について、何をしているのかコメントを記入してください。
         *  [10、20、30、40、50を要素の値（初期値）とする要素数5のint型配列の宣言と初期化]
