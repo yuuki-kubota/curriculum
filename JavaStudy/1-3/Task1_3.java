@@ -29,6 +29,8 @@ public class Task1_3 {
         System.out.println(minus);
         System.out.println(multiply);
         System.out.println(remi);
+        System.out.println(train);
+
 
     }
-}
+}  
