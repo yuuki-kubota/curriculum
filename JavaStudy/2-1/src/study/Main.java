@@ -17,6 +17,7 @@ public class Main {
         String firstName="Yuki";
         String lastName="Kubota";
 
+
         //getName関数の呼び出しと出力
         System.out.println(getName(firstName, lastName));
         System.out.println();
@@ -39,7 +40,8 @@ public class Main {
     //   引数には①で定義したfirstNameとlastNameを引数で受け取り、
     //  last_name と first_name を連結した値を返り値とする変数を定義なさい。
     public static String getName(String firstName,String lastName) {
-    return firstName+lastName;
+    String fullName = firstName + lastName;
+    return fullName;
     }
 
 
