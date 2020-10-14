@@ -9,7 +9,7 @@ public class Check{
 
         /*
         * 問2
-        * 以下のfor文を完成させなさい
+        * 以下のfor文を完成させなさい;;;
         */
         for(int i = 0; i < data.length; i++){
             System.out.print(data[i] + " ");
