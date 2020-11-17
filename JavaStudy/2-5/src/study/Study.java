@@ -1,6 +1,6 @@
 package study;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 /**
@@ -22,12 +22,12 @@ public class Study {
 
         // ① 定数を全て使って、String型のListを記述してください。
 
-    	HashMap<Integer,String> shohinList = new HashMap<Integer,String>();
+    	ArrayList<String> shohinList = new ArrayList<String>();
 
-    	shohinList.put(0,SHOP_SHOHIN_00);
-    	shohinList.put(1,SHOP_SHOHIN_01);
-    	shohinList.put(2,SHOP_SHOHIN_02);
-    	shohinList.put(3,SHOP_SHOHIN_03);
+    	shohinList.add(SHOP_SHOHIN_00);
+    	shohinList.add(SHOP_SHOHIN_01);
+    	shohinList.add(SHOP_SHOHIN_02);
+    	shohinList.add(SHOP_SHOHIN_03);
 
 
 
